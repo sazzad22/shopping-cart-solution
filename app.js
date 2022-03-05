@@ -19,6 +19,7 @@ function getInputValue(product) {
     const productInput = document.getElementById(product + '-number');
     const productNumber = parseInt(productInput.value);
     return productNumber;
+    
 }
 
 function calculateTotal() {
